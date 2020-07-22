@@ -1,0 +1,15 @@
+[package]
+name = "kurbo-smooth"
+version = "0.1.0"
+authors = ["msiglreith <m.siglreith@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kurbo = "0.6"
+
+[dev-dependencies]
+piet-svg = { git = "https://github.com/linebender/piet.git", rev = "553b83b" }
+piet = { git = "https://github.com/linebender/piet.git", rev = "553b83b" }
+anyhow = "1"
